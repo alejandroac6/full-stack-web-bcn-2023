@@ -1,3 +1,39 @@
 body {
     font-family: 'Roboto Mono', monospace;
+    background-color: bisque;
 }
+
+h1 {
+    font-size:xx-large;
+    background-color: rgba(0, 255, 255, 0.463);
+}
+
+.fancy {
+    /* display: flex; */
+    background-color: black;
+    color: aliceblue;
+    padding: 2rem;
+}
+
+.destacar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem;
+
+}
+
+.primer-parrafo {
+    background-color: aquamarine;
+}
+
+.encabezado {
+    position: relative;
+    background-image: url(/clase-html/images/Fitxa_Escola__Bon_Salvador__imatge_escola.jpg);
+    height: 450px;
+    margin-bottom: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.encabezado img {
+   width:max-content;
+  }
